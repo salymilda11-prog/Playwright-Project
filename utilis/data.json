@@ -1,0 +1,24 @@
+[{
+    "productitem" : "Sauce Labs Backpack",
+    "firstname" : "Miya",
+    "lastname" : "Jose",
+    "zip" :"686575",
+    "username" : "standard_user",
+    "password" : "secret_sauce"
+},
+{
+    "productitem" : "Sauce Labs Bolt T-Shirt",
+    "firstname" : "Niya",
+    "lastname" : "Joseph",
+    "zip" :"686578",
+    "username" : "standard_user",
+    "password" : "secret_sauce"
+},
+{
+    "productitem" : "Sauce Labs Onesie",
+    "firstname" : "Kiran",
+    "lastname" : "Joseph",
+    "zip" :"686778",
+    "username" : "standard_user",
+    "password" : "secret_sauce"
+}]

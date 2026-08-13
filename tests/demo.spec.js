@@ -1,0 +1,18 @@
+import {expect, test} from "@playwright/test"
+test ("locators",async ({page})=>{
+    await page.goto("https://selenium.qabible.in/")
+    // await page.locator("a[href='simple-form-demo.php']").click()
+    // await page.locator()
+    // await page.locator("#single-input-field").fill("Have a Nice Day")
+    // await page.locator(".btn.btn-primary").first().click()
+    // await page.locator("//a[href='check-box-demo.php']").click()
+    // await page.getByLabel("Click on this checkbox").check()
+    // await page.locator("a[href='radio-button-demo.php']").click()
+    // await page.getByRole("radio", {name : "Female"}).nth(0).click()
+    // await page.pause()
+    //await page.screenshot({path : "home1.png"})
+    //expect (await page.screenshot()).toMatchSnapshot("home1.png")
+    await page.locator("a[href='radio-button-demo.php']").click()
+    await page.screenshot({path : "demo2.png"})
+    //expect (await page.screenshot()).toMatchSnapshot("demo1.png")
+} )
